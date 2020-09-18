@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Website Layou8t</title>
+    
+    <style>
+        .edit-area{
+            display: none;
+        }
+    
+    </style>
 </head>
 <body>
    <div class="container">
+     
+<!--    js-17-editable div-->
+   <div class="edit-div">
+       <button onclick="showInputBox()" id="show-input-box">Click me to add something</button>
+       <br>
+       <div class="edit-area">
+            <input id="add-input" type="text" placeholder="write something to add"> 
+
+            <button id="add-input-btn">Add</button>
+
+            <ul class="edit-div-ul">
+
+            </ul>
+        </div>
+    </div>
+     
+     
+     
+     
       <h1 class="headin head"id="heading">Welcome to my website</h1>
       
      
@@ -41,5 +67,7 @@
 <!--   <script src="js/13-js-traversing.js"></script> -->
 <!--<script src="js/14-js-creating-removing-replacing-elements.js"></script>-->
 <!--<script src="js/15-js-events.js"></script>-->
+<!--<script src="js/16-session-and-local-storage.js"></script>-->
+<script src="js/17-js-edit-div.js"></script>
 </body>
 </html>
